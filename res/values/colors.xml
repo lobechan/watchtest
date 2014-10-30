@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     /* //device/apps/common/assets/res/any/colors.xml ** ** Copyright 2008, 
+	The Android Open Source Project ** ** Licensed under the Apache License, 
+	Version 2.0 (the "License"); ** you may not use this file except in compliance 
+	with the License. ** You may obtain a copy of the License at ** ** http://www.apache.org/licenses/LICENSE-2.0 
+	** ** Unless required by applicable law or agreed to in writing, software 
+	** distributed under the License is distributed on an "AS IS" BASIS, ** WITHOUT 
+	WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. ** See the 
+	License for the specific language governing permissions and ** limitations 
+	under the License. */
+-->
+<resources>
+
+    <color name="appwidget_error_color">#FCCC</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="red">#ffff0000</color>
+    <color name="grey">#ff888888</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray">#1e1e1e</color>
+
+    <drawable name="white">#ffffffff</drawable>
+    <drawable name="white_2">#3c3c3c</drawable>
+    <drawable name="transparent">#00000000</drawable>
+    <drawable name="black">#000000</drawable>
+	<drawable name="blue">#770000ff</drawable>
+	<drawable name="line_sep">#19ffffff</drawable>
+	<drawable name="popupbg">#334144</drawable>
+	<color name="transparent_background">#00000000</color>
+	
+	<color name="cycle_color">#e78c30</color>
+	<color name="cycle_color_f">#f6b573</color>
+	<color name="sleep_color">#7a678c</color>
+	<color name="linecolor">#dcdbe3</color>
+	<color name="tabwidgetcolor">#f9f9f9</color>
+	<color name="tabwidgettextcolor">#110183</color>
+	<color name="titlecolor">#f9f9f9</color>
+	<color name="titlebgcolor">#334144</color>
+	<color name="unbind_title">#0078ff</color>
+	<color name="update_color1">#141414</color>
+	<color name="update_color2">#323232</color>
+	
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/titlebgcolor" >
+        
+        <TextView
+	        android:id="@+id/action_daydata"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/white"
+	        android:gravity="center"
+	        android:clickable="true"
+	        android:background="@drawable/action_daydata"
+	        android:text="@string/action_daydata"/>
+        
+        <TextView
+	        android:id="@+id/action_weekdata"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/white"
+	        android:gravity="center"
+	        android:clickable="true"
+	        android:background="@drawable/action_daydata"
+	        android:text="@string/action_weekdata"/>
+        
+        <TextView
+	        android:id="@+id/action_mouthdata"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/white"
+	        android:gravity="center"
+	        android:clickable="true"
+	        android:background="@drawable/action_mouthdata"
+	        android:text="@string/action_mouthdata"/>
+
+</LinearLayout>

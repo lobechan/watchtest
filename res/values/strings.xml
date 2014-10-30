@@ -1,0 +1,129 @@
+<resources>
+	<string name="app_name">FastFoxTest</string>
+	<string name="devices_list">DevicesList</string>
+	 <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    
+    <string name="action_daydata">Day</string>
+	<string name="action_weekdata">Week</string>
+	<string name="action_mouthdata">Month</string>
+	<string name="sportdata">Sports</string>
+	<string name="sleepdata">Sleep</string>
+	<string name="about_title">About</string>
+	<string name="personal_title">Setting</string>
+	
+	<string name="sync">Sync</string>
+	<string name="not_find_fastfox_service">Not Found FastFox Service</string>
+	<string name="today">Today</string>
+	<string name="running_step">Run</string>
+	<string name="walking_step">Walk</string>
+	<string name="gongli">Kilometre</string>
+	<string name="calorie">Calories</string>
+	
+	<string name="sleepadvise1">No Sleep</string>
+	<string name="sleepadvise2">Not enough sleep!</string>
+	<string name="sleepadvise3">Sleep well, please keep!</string>
+	<string name="sleepadvise4">God of sleep!</string>
+	<string name="sleeptime">sleep time</string>
+	<string name="hour">Hour</string>
+	<string name="fastfox_user">CherrySports User</string>
+	<string name="nodata_day">No SportsData Of Tomorrow</string>
+	<string name="nodata_week">No SportsData Of Next Week</string>
+	<string name="nodata_month">No SportsData Of Next Month</string>
+	<string name="nodata_sleep_day">No SleepData Of Today</string>
+	<string name="nodata_sleep_week">No SleepData Of Next Week</string>
+	<string name="nodata_sleep_month">No SleepData Of Next Month</string>
+	<string name="scandata">Slide you can browse historical data</string>
+	
+	
+	<string name="male_title">Gender</string>
+	<string name="male">male</string>
+	<string name="female">female</string>
+	
+	<string name="sync_ok">Synchronization is complete</string>
+	<string name="sync_failed">Synchronization is failed</string>
+	
+	<string name="ystr1">LS</string>
+	<string name="ystr2">DS</string>
+	<string name="ystr3">SL</string>
+	
+	
+	<string name="monday">monday</string>
+	<string name="tuesday">tuesday</string>
+	<string name="wednesday">wednesday"</string>
+	<string name="thursday">thursday</string>
+	<string name="friday">friday</string>
+	<string name="saturday">saturday</string>
+	<string name="sunday">sunday</string>
+	<string name="day"> day</string>
+	<string name="month"> month</string>
+	<string name="thisweek">This week</string>
+	<string name="thismonth">This month</string>
+	
+	<string name="device_power">Device power</string>
+	<string name="sync_time">Last Synchronization Time</string>
+	<string name="device_version">Device Version</string>
+	<string name="app_version">App Version</string>
+	<string name="phone_status">Calls to remind</string>
+	
+	<string name="device_serial">Device SN</string>
+	<string name="rebind_btn">Rebinding</string>
+	
+	<string name="setting_male">Gender:</string>
+	<string name="setting_height">Height:</string>
+	<string name="setting_weight">Weight:</string>
+	
+	<string name="sports_target">Sports Goal</string>
+	<string name="step">Steps</string>
+	<string name="sports_suggest">Suggest 2000 step</string>
+	<string name="sleep_target">Sleep Goal</string>
+	<string name="sleep_suggest">Suggest 8 hours</string>
+	<string name="setting_save">Save</string>
+	
+	<string name="deep_sleep">Deep Sleep</string>
+	<string name="light_sleep">Light Sleep</string>
+	
+	<string name="already_saved">Saved!</string>
+	
+	<string name="sleep_data_invalid">Sleep Data Invalid!</string>
+	<string name="sport_data_invalid">Sport Data Invalid!</string>
+	
+	<string name="syncing_now">Syncing Now!</string>
+	<string name="syncing">Syncing..</string>
+	<string name="check_update">check update</string>
+	<string name="detected_new_version">Detected a new version:</string>
+	
+	<string name="software_updates">Software updates</string>
+	 <string name="back">Back</string>
+	 <string name="unbind">Unbinding will clear the data!</string>
+	 <string name="no">cancel</string>
+	<string name="yes">unbind</string>
+	
+	<string name="not_tip_today">Not Tip Today</string>
+	
+	<string name="click_to_install">Click To Install</string>
+	<string name="update_description">Update  Description</string>
+	<string name="findVersion">Found new Version:</string>
+	
+	<string name="test">Test Results</string>
+	<string name="test_succeeded">Test Succeeded,STEP:</string>
+	<string name="test_failed">Test Failed,STEP:</string>
+	
+</resources>

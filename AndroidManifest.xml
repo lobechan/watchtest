@@ -1,0 +1,113 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fastfox.watchtest"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+    
+ 	<uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"></uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_SMS" /> 
+   <!-- 
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="19" />
+        -->
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="9" />
+<!--
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+            <activity
+            android:name=".DeviceScanActivity"
+            android:configChanges="screenSize|keyboard|orientation"
+            android:label="@string/app_name"
+            >
+      
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                  <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> 
+        
+           <activity android:name=".MainActivity"/>
+        
+        
+    </application>
+	-->
+	<application
+        android:allowBackup="true"
+        android:icon="@drawable/fastfox"
+        android:label="@string/app_name"
+        android:theme="@style/MyTitleBar">
+        <activity
+            android:name="com.fastfox.watchassistant.DeviceScanActivity"
+            android:configChanges="screenSize|keyboard|orientation"
+            android:theme="@style/MyTitleBar"
+            android:screenOrientation="portrait"
+            >
+      
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                  <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> 
+        
+        <activity
+            android:name="com.fastfox.watchassistant.TabMainActivity"
+            android:theme="@style/MyTitleBar"
+            android:screenOrientation="portrait">
+           <!--  <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> -->
+        </activity>
+        <activity android:name="com.fastfox.watchassistant.SportsActivity"
+            android:theme="@style/MyTitleBar">
+          
+    </activity> 
+    <activity android:name="com.fastfox.watchassistant.SleepActivity"> 
+          
+    </activity> 
+    <activity android:name="com.fastfox.watchassistant.SettingActivity">
+           
+    </activity>
+    <activity android:name="com.fastfox.watchassistant.NotifyUpdateActivity1"
+        android:theme="@style/NotTitleActivity"
+        android:screenOrientation="portrait"
+        >
+           
+    </activity> 
+    <activity android:name="org.achartengine.GraphicalActivity">
+            </activity> 
+    <activity android:name="com.fastfox.watchassistant.AboutActivity" 
+        		>
+            </activity> 
+                   <provider
+            android:name="com.fastfox.watchassistant.StepProvider"
+            android:authorities="com.fastfox.providers.stepprovider"
+           android:exported="true"
+            >
+       </provider>
+       <service android:name="com.fastfox.watchassistant.BluetoothLeService" android:enabled="true"/>
+       <service android:name="com.fastfox.watchassistant.UpdateApkSevice" />
+       <service android:name="com.excheer.network.ListenNetStateService" />
+       
+       
+       
+    </application>
+</manifest>

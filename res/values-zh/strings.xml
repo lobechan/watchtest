@@ -1,0 +1,129 @@
+<resources>
+	<string name="app_name">敏狐测试工具</string>
+	<string name="devices_list">设备列表</string>
+	 <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    
+    <string name="action_daydata">日数据</string>
+	<string name="action_weekdata">周数据</string>
+	<string name="action_mouthdata">月数据</string>
+	<string name="action_hide">隐藏菜单</string>
+	<string name="sportdata">运动数据</string>
+	<string name="sleepdata">睡眠数据</string>
+	<string name="about_title">关于设备</string>
+	<string name="personal_title">个人设置</string>
+	
+	<string name="sync">同步</string>
+	<string name="not_find_fastfox_service">没有发现CherrySports服务</string>
+	<string name="today">今天</string>
+	<string name="running_step">跑步数</string>
+	<string name="walking_step">步行数</string>
+	<string name="gongli">公里</string>
+	<string name="calorie">卡路里</string>
+	
+	<string name="sleepadvise1">没有检测到睡眠</string>
+	<string name="sleepadvise2">睡的不够呀!</string>
+	<string name="sleepadvise3">睡的不错，请保持</string>
+	<string name="sleepadvise4">睡神！服了</string>
+	<string name="sleeptime">睡眠时间</string>
+	<string name="hour">小时</string>
+	<string name="fastfox_user">CherrySports</string>
+	<string name="nodata_day">明天的运动数据还没有哦</string>
+	<string name="nodata_week">下一周的运动数据还没有哦</string>
+	<string name="nodata_month">下一月的运动数据还没有哦</string>
+	<string name="nodata_sleep_day">今天的睡眠数据还没有哦</string>
+	<string name="nodata_sleep_week">下一周的睡眠数据还没有哦</string>
+	<string name="nodata_sleep_month">下一月的睡眠数据还没有哦</string>
+	<string name="scandata">左右滑动可以浏览历史数据</string>
+	
+	
+	<string name="male_title">性别</string>
+	<string name="male">男</string>
+	<string name="female">女</string>
+	
+	<string name="sync_ok">同步完成</string>
+	<string name="sync_failed">同步失败</string>
+	<string name="ystr1">浅睡</string>
+	<string name="ystr2">深睡</string>
+	<string name="ystr3">睡眠</string>
+	
+	<string name="up_refresh">松开刷新</string>
+	<string name="pull_refresh">松开刷新</string>
+	<string name="refresh">刷新</string>
+	
+	<string name="monday">星期一</string>
+	<string name="tuesday">星期二</string>
+	<string name="wednesday">星期三</string>
+	<string name="thursday">星期四</string>
+	<string name="friday">星期五</string>
+	<string name="saturday">星期六</string>
+	<string name="sunday">星期日</string>
+	<string name="day">日</string>
+	<string name="month">月</string>
+	<string name="thisweek">本周</string>
+	<string name="thismonth">本月</string>
+	
+	<string name="device_power">设备电量</string>
+	<string name="sync_time">上次同步时间</string>
+	<string name="device_version">设备版本</string>
+	<string name="app_version">应用版本</string>
+	<string name="device_serial">设备序列号</string>
+	<string name="rebind_btn">重新绑定</string>
+	<string name="phone_status">来电提醒</string>
+	
+	<string name="setting_male">性别:</string>
+	<string name="setting_height">身高:</string>
+	<string name="setting_weight">体重:</string>
+	
+	<string name="sports_target">运动目标</string>
+	<string name="step">步</string>
+	<string name="sports_suggest">建议设置10000步</string>
+	<string name="sleep_target">睡眠目标</string>
+	<string name="sleep_suggest">建议设置8小时</string>
+	<string name="setting_save">保存</string>
+	
+	<string name="deep_sleep">深度睡眠</string>
+	<string name="light_sleep">浅度睡眠</string>
+	
+	<string name="already_saved">已保存</string>
+	
+	<string name="sleep_data_invalid">睡眠数据不合法!</string>
+	<string name="sport_data_invalid">运动数据不合法</string>
+	
+	<string name="syncing_now">正在同步!</string>
+	<string name="syncing">同步中..</string>
+	<string name="check_update">检查更新</string>
+	<string name="detected_new_version">检测到新版本：</string>
+	<string name="software_updates">软件更新</string>
+	<string name="back">返回</string>
+	<string name="unbind">解除绑定会清除所有数据！</string>
+	<string name="no">取消</string>
+	<string name="yes">解绑</string>
+	
+	<string name="not_tip_today">今天不再提示</string>
+	<string name="click_to_install">点击安装</string>
+	<string name="update_description">更新说明</string>
+	<string name="findVersion">发现新版本：</string>
+	
+	<string name="test">测试结果</string>
+	<string name="test_sure">确认</string>
+	<string name="test_succeeded">测试通过,步数为:</string>
+	<string name="test_failed">测试不通过，步数为:</string>
+</resources>

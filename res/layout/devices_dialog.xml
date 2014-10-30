@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/devices_dialog_view"   
+    android:orientation="vertical"  
+    android:layout_width="wrap_content"   
+    android:layout_height="wrap_content"   
+    android:gravity="center"  
+    >  
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:id="@+id/devices_name"
+        android:text="@string/unbind"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:background="@drawable/unbind_bg1"/>
+
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/alter_devicesname"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:clickable="true"
+            android:text="@string/no"
+            android:background="@drawable/no_bg"/>
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:clickable="true"
+            android:text="@string/yes"
+            android:id="@+id/unblind_devices"
+            android:background="@drawable/yes_bg"/>
+    </LinearLayout>
+     
+</LinearLayout> 

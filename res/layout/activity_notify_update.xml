@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:title="http://schemas.android.com/apk/res/com.fastfox.watchtest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   	android:background="@drawable/update_bg">
+
+    <com.fastfox.watchassistant.TitleBarView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top"
+        title:bar_btn_back="visible"
+        title:bar_text="@string/check_update" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dip"
+        android:orientation="vertical" 
+        >
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/ico_newvision"/>
+		<LinearLayout 
+		    android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        >
+		    <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="30dp"
+	            android:layout_gravity="center_horizontal"
+	            android:gravity="center_horizontal"
+	            android:text="@string/detected_new_version"
+	            android:textColor="@color/update_color1"
+	            android:textSize="18sp" />
+	
+	        <TextView
+	            android:id="@+id/text_version"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_horizontal"
+	            android:textColor="@color/update_color1"
+	            android:textSize="18sp" />
+		</LinearLayout>
+        
+		<ImageView 
+	    	android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/update_line"/>
+		<LinearLayout 
+		    android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        >
+		    <TextView 
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/update_description"
+			    android:textColor="@color/update_color1"
+			    android:layout_marginLeft="30dp"
+			    android:layout_marginTop="30dp"
+			    android:textSize="18sp"/>
+	        <TextView
+	            android:id="@+id/text_description"
+	            android:layout_width="wrap_content"
+	            android:layout_height="80dp"
+	            android:layout_marginBottom="10dip"
+				android:layout_marginLeft="30dp"	            
+				android:layout_marginRight="28dip"
+	            android:layout_marginTop="15dip"
+	            android:textColor="@color/update_color2"
+	            android:textSize="12sp" />
+		</LinearLayout>
+		
+
+      <CheckBox
+            android:id="@+id/check_notify_today"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dip"
+            android:button="@drawable/selector_checkbox"
+            android:drawablePadding="10dip"
+            android:text="@string/not_tip_today" 
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="220dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dip"
+        android:background="@drawable/selector_btn_blue"
+        android:text="@string/software_updates"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

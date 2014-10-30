@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout 
+        android:id="@+id/data_linearlayout_sleep"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentLeft="true"
+		android:layout_centerVertical="true"
+		android:focusable="true"
+		android:orientation="vertical"
+		android:background="@drawable/press_bg"
+		android:gravity="center">
+            <ImageView 
+                android:id="@+id/data_sleep"
+		        android:layout_width="wrap_content"
+		        android:layout_marginLeft="5dp"
+		        android:layout_height="wrap_content"
+				android:background="@drawable/data"/>
+            <TextView 
+                android:layout_width="100dp"
+		        android:layout_marginLeft="5dp"
+		        android:layout_height="wrap_content"
+        		android:text="@string/action_daydata"
+        		android:gravity="center" />
+    </LinearLayout>
+    <!--  
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+		android:layout_centerVertical="true"
+		android:background="@drawable/data"
+        android:text="@string/button" />
+        -->
+    <TextView 
+        android:id="@+id/text_sleep"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:textSize="25sp"
+        android:text="@string/sleepdata"
+        />
+     <LinearLayout 
+        android:id="@+id/sync_linearlayout_sleep"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+		android:orientation="vertical"
+		android:background="@color/black"
+		android:gravity="center">
+            <ImageView 
+                android:id="@+id/sync_sleep"
+		        android:layout_width="wrap_content"
+		        android:layout_marginLeft="5dp"
+		        android:layout_height="wrap_content"
+				android:background="@drawable/sync"/>
+            <TextView 
+                android:layout_width="100dp"
+		        android:layout_marginLeft="5dp"
+		        android:layout_height="wrap_content"
+        		android:text="@string/sync" 
+        		android:gravity="center"/>
+    </LinearLayout>
+
+</RelativeLayout>
